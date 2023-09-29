@@ -89,7 +89,7 @@ public class MatriceServlet extends HttpServlet {
 	     String colonne2=request.getParameter("colonne");
 	     String value1=request.getParameter("valeur");
 
-	     if(ligne1==null&&colonne2==null&&value1==null) { // si les 3 valeurs sont nuls on met la matrice à 0 autrement dit si on clique sur recommencer
+	     if(ligne1==null&&colonne2==null&&value1==null) { // si les 3 valeurs sont nuls on met la matrice à 0 autrement dit si on clique sur réinitialiser.
 	    	 for(int i =0;i<10;i++) {
 	    		 for(int j =0;j<10;j++) {
 	    			 matrice[i][j]=0;	
