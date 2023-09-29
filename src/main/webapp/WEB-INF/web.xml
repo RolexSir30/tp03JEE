@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://java.sun.com/xml/ns/javaee" 
+ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0">
+  
+<servlet>
+<servlet-name>Equation</servlet-name>
+<servlet-class>servlets.Equation</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Equation</servlet-name>
+<url-pattern>/equation</url-pattern>
+</servlet-mapping>
+  
+<servlet>
+<servlet-name>MatriceServlet</servlet-name>
+<servlet-class>servlets.MatriceServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>MatriceServlet</servlet-name>
+<url-pattern>/matrice</url-pattern>
+</servlet-mapping>
+  
+    
+</web-app>
