@@ -100,7 +100,7 @@ public class MatriceServlet extends HttpServlet {
 		     //response.sendRedirect("/TP03/matrice");
 	    	 PrintWriter out = response.getWriter();
 
-			 out.println("Les valeurs de la matrice ont été remis à 0.");
+			 out.println("Les valeurs de la matrice ont été remis à 0. Pour vérifier retourner à la page d'avant et rafraichissez");
 	     }else {
 	     
 	     int ligne=Integer.parseInt(ligne1);
