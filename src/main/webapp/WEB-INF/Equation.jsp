@@ -8,6 +8,22 @@
 </head>
 <body>
 
+
+
+
+
+ <form action="equation" method="get">
+        
+        <input type="number" name="a" id="a" required>x^2+
+        
+
+        <input type="number" name="b" id="b" required>x+
+
+        <input type="number" name="c" id="c" required>=0
+        <br><br>
+
+        <input type="submit" value="Envoyer">
+
 <%
 
 

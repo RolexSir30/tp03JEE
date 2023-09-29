@@ -96,7 +96,7 @@ public class MatriceServlet extends HttpServlet {
 	    			 }
 	    	 }
 	    	 
-		     response.sendRedirect("/TP03/matrice");
+		     //response.sendRedirect("/TP03/matrice");
  
 	     }else {
 	     
