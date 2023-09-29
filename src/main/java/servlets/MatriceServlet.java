@@ -89,15 +89,18 @@ public class MatriceServlet extends HttpServlet {
 	     String colonne2=request.getParameter("colonne");
 	     String value1=request.getParameter("valeur");
 
-	     if(ligne1==null&&colonne2==null&&value1==null) { // si les 3 valeurs sont nuls on met la matrice à 0
+	     if(ligne1==null&&colonne2==null&&value1==null) { // si les 3 valeurs sont nuls on met la matrice à 0 autrement dit si on clique sur recommencer
 	    	 for(int i =0;i<10;i++) {
 	    		 for(int j =0;j<10;j++) {
 	    			 matrice[i][j]=0;	
+	    			 
 	    			 }
 	    	 }
 	    	 
 		     //response.sendRedirect("/TP03/matrice");
- 
+	    	 PrintWriter out = response.getWriter();
+
+			 out.println("Les valeurs de la matrice ont été remis à 0.");
 	     }else {
 	     
 	     int ligne=Integer.parseInt(ligne1);
@@ -114,9 +117,10 @@ public class MatriceServlet extends HttpServlet {
 		}else {
 
 	     matrice[ligne-1][colonne-1]=value;
-	     response.sendRedirect("/TP03/matrice");
 	   
 	    }
+	     response.sendRedirect("/TP03/matrice");
+
 	     }
 	}
 	     
