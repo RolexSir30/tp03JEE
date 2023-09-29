@@ -50,10 +50,10 @@
     
     
     <p><label>Ligne</label>
-    	<input type="number" id="x" name="x"></input></p>
+    	<input type="number" id="x" name="x"required></input></p>
     	
     <p><label>Colonne</label>
-    	<input type="number" id="y" name="y"></input></p>	
+    	<input type="number" id="y" name="y"required></input></p>	
     	
 
     
@@ -70,13 +70,13 @@
     
     
     <p><label>Ligne</label>
-    	<input type="number" id="ligne" name="ligne"></input></p>
+    	<input type="number" id="ligne" name="ligne" required></input></p>
     	
     <p><label>Colonne</label>
-    	<input type="number" id="colonne" name="colonne"></input></p>	
+    	<input type="number" id="colonne" name="colonne"required></input></p>	
     	
     <p><label>Valeur</label>
-    	<input type="number" id="valeur" name="valeur"></input></p>	
+    	<input type="number" id="valeur" name="valeur"required></input></p>	
     
     <p><input type="submit"></p>
     </form>
@@ -87,7 +87,7 @@
 
     
     <p> <label>Réinitialiser la matrice à la matrice nulle</label>
-    <input type="submit" text="Réinitialiser la matrice à 0 "></p>
+    <input type="submit" text="Réinitialiser la matrice à 0 " ></p>
     </form>
     
     
